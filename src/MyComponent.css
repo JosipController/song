@@ -1,0 +1,166 @@
+.my-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    outline: none;
+  }
+  
+  
+  .my-component p {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 150;
+    font-family: sans-serif;
+  }
+
+  .paragraph-one {
+    margin-top: 550px;
+  }
+
+  .my-component h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .subscribe {
+    outline:none;
+    font-size: 30px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    
+    
+  }
+    .my-component button:hover {
+        background-color: rgb(216, 184, 0);
+      }  
+
+
+    .heading {
+        color: rgb(224, 224, 224);
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .paragraph-one {
+        color: rgb(224, 224, 224);
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 100;
+        padding-top: 1330px;
+    }
+
+    .button-container {
+      display: inline-block;
+      margin-top: 1cm;
+    }
+
+    .text-between-buttons {
+      color: rgb(224, 224, 224);
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 100;
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: 45px;
+        
+    }
+
+    .paragraph-two {
+        color: rgb(224, 224, 224);
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+
+    .gold-heading {
+        color: gold;
+        text-shadow: 0 0 2px gold, 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold;
+        animation: shine 0.5s ease-out infinite;
+    }
+    
+    @keyframes shine {
+        from {
+            text-shadow: 0 0 1px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 45px gold, 0 0 60px gold, 0 0 70px gold, 0 0 90px gold;
+        }
+        to {
+            text-shadow: 0 0 2px gold, 0 0 15px gold, 0 0 25px gold, 0 0 35px gold, 0 0 50px gold, 0 0 65px gold, 0 0 75px gold, 0 0 90px gold;
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+        .gold-heading {
+          animation: none;
+        }
+        .my-component{
+            position: absolute;
+            top: 50%;
+            left: 51%;
+        }
+        .my-component h1{
+              font-size: 30px;
+            }
+            .my-component p{
+                font-size: 26px;
+              }    }
+            
+          
+
+
+
+    .how-it-works-div{
+      position: relative;
+      margin-top: 16cm;
+      margin-bottom: 16cm;
+      
+    }
+
+    .how-it-works-p1{
+      color: rgb(224, 224, 224);
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+
+    .how-it-works-p2{
+      color: rgb(224, 224, 224);
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+
+    .hiw-h1{
+      color: rgba(255, 208, 0, 0.861);
+      margin-bottom: 25px;
+
+    }
+
+    .back-to-top-button{
+      background-color: #5f5f5f; /* Gold background color */
+      color: #fff; /* Text color (white) */
+      padding: 10px 20px; /* Padding around the text */
+      font-size: 20px; /* Font size */
+      border: none; /* Remove the button border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Show pointer cursor on hover */
+      transition: background-color 0.3s ease; /* Smooth color transition on hover */
+      position: relative;
+      align-self: center;
+      margin-left: 355px;
+      margin-top: 25px;
+    }
+    
